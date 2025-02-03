@@ -227,6 +227,7 @@ conf:
       thunder-lock: true
       worker-reload-mercy: 80
       wsgi-file: /var/lib/openstack/bin/magnum-api-wsgi
+      processes: 4
 
 network:
   api:
